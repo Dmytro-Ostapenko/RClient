@@ -67,7 +67,7 @@ public interface Compute extends Remote {
             int temp;
 
             int h = 1;
-            // ищем начальное значение h
+
             while (h <= intMasForSort.length / 3) {
                 h = h * 3 + 1; // (1, 4, 13, 40, 121, ...)
             }
